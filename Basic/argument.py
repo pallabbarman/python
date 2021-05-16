@@ -25,3 +25,12 @@ def myself(age, **others):
 
 
 myself(23, name="Pallab", varsity="BUBT", country="BD")
+
+
+def power(a, b=5):
+    # default argument
+    return pow(a, b)
+
+
+result = power(2)
+print(result)
